@@ -82,7 +82,7 @@ public class VarastoTest {
 
     @Test
     public void ottaaNegatiivisenMaaran() {
-        assertEquals(1, varasto.otaVarastosta(-10), vertailuTarkkuus);
+        assertEquals(0, varasto.otaVarastosta(-10), vertailuTarkkuus);
     }
 
     @Test
